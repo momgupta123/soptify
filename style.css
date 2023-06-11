@@ -1,0 +1,156 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav{
+    background-color: black;
+    height: 234px;
+     width: 100px;
+ } */
+
+ nav ul{
+    display: flex;
+    list-style-type:none;
+    height:70px;
+    background-color: black;
+    color: white;
+    align-items: center;
+ }
+
+ nav ul li{
+    padding: 0 12px;
+     
+}
+.brand img
+{
+    width: 38px;
+    
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+border-radius: 23px;
+padding:34px ;
+background-image: url("https://wallpaperaccess.com/full/2142880.jpg");
+background-size: 100%;
+background-repeat: no-repeat ;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+
+}
+input{
+    width: 98%;
+}
+.icons{
+    margin-top: 9px;
+    height: 12px;
+    cursor: pointer;
+
+}
+.fa-solid{
+    height: 11px;
+}
+#myprogressBar{
+    cursor: pointer;
+    text-align: center;
+  
+
+}
+.songlist {
+    max-height: 60vh; /* Adjust the maximum height as needed */
+    overflow-y: auto; /* Display vertical scroll bar when content exceeds the height */
+  }
+  
+  .songlist::-webkit-scrollbar {
+    width: 10px; 
+   /* Adjust the width as needed */
+  }
+  
+  .songlist::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 23px;
+  }
+  
+  .songlist::-moz-scrollbar {
+    width: 10px;
+     /* Adjust the width as needed */
+  }
+  
+  .songlist::-moz-scrollbar-thumb {
+    background-color: red;
+    border-radius: 23px;
+  }
+  
+  /* For Internet Explorer and Edge */
+  .songlist {
+    scrollbar-base-color: blue;
+  }
+  
+  .songlist {
+    scrollbar-face-color: blue;
+    scrollbar-shadow-color: blue;
+  }
+  
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+width: 80%;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+.songItem img{
+width: 43px;
+margin:0 23px;
+border-radius: 34px;
+}
+.timestamp{
+    align-items: center;
+    justify-content: center;
+    margin: 1px 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.sonfinfo{
+    position: absolute;
+  padding-top: 39px;
+  width: 12%;
+    left: 8vw;
+    font-style: italic;
+}
+.sonfinfo img{
+   
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
+}
